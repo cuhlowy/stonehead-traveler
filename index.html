@@ -2,6 +2,46 @@
 <html class="no-js" lang="en">
 
 <head>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html">About</a>
+      <a href="index.html">Blog</a>
+      <a href="index.html">Resources</a>
+
+    </nav>
+  </header>
+  <title>Stonehead Traveler</title>
+  <style>
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+      }
+      .parallax {
+          height: 200px;
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      .bg1 {
+          background-image: url('img/glaciers.jpg');
+      }
+      .bg2 {
+          background-image: url('img/glaciers.jpg');
+      }
+      .text {
+          text-align: center;
+          padding: 50px;
+      }
+  </style>
+</head>
+<body>
+  <div class="parallax bg1"></div>
+  <div class="text">Stonehead Traveler</div>
+  <div class="parallax bg2"></div>
+</body>
+
   <meta charset="utf-8">
   <title>Responsive Layouts</title>
   <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
@@ -23,9 +63,30 @@
 </head>
 
 <body>
+
   <!-- Place your site's HTML here -->
-  <p>This text will display on your site! Jan 19</p>
   <script src="js/main.js"></script>
 </body>
+
+<div class="header">
+  <nav>
+      <a href="#iceland">Iceland</a>
+      <a href="#denmark">Denmark</a>
+      <a href="#sweden">Sweden</a>
+  </nav>
+</div>
+
+<div class="text" id="iceland">
+  <h2>Iceland</h2>
+  <p>Explore the land of fire and ice.</p>
+</div>
+<div class="text" id="denmark">
+  <h2>Denmark</h2>
+  <p>Discover the beauty of Denmark.</p>
+</div>
+<div class="text" id="sweden">
+  <h2>Sweden</h2>
+  <p>Experience the charm of Sweden.</p>
+</div>
 
 </html>

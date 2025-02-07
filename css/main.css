@@ -1,1 +1,18 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: rgb(64, 185, 64);
+
+body{
+    background-color:antiquewhite;
+
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
