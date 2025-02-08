@@ -3,21 +3,27 @@
 
 <head>
 
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="index.html">About</a>
-      <a href="index.html">Blog</a>
-      <a href="index.html">Resources</a>
-
-    </nav>
-  </header>
   <title>Stonehead Traveler</title>
   <style>
       body {
           margin: 0;
           font-family: Arial, sans-serif;
       }
+      .header {
+            background: #c7ced4;
+            padding: 15px;
+            text-align: center;
+        }
+        .header nav a {
+            color: rgb(31, 28, 28);
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .header nav a:hover {
+            text-decoration: underline;
+        }
+
       .parallax {
           height: 400px;
           background-size: cover;
@@ -31,19 +37,19 @@
           text-align: center;
           padding: 50px;
       }
-      .header {
+      .locations {
             background: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px #51585e;
             position: center;
             top: 0;
-            z-index: 1000;
+           
         }
-        .header nav {
+        .locations nav {
             display: flex;
             justify-content: center;
             padding: 15px;
         }
-        .header nav a {
+        .locations nav a {
             color: #333;
             text-decoration: none;
             margin: 0 15px;
@@ -51,21 +57,38 @@
             position: relative;
         }
         .logo {
-            font-family: 'Arial', serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 42px;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 3px;
-            color: #2a5298;
+            color: #1a2026;
             text-align: center;
             margin-top: 100px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             padding: 100px;
         }
   </style>
 </head>
 <body>
+  <div class="header">
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="resources.html">Resources</a>
+    </nav>
   <div class="logo">Stonehead Traveler</div>
+
+  <div class="locations">
+    <nav>
+        <a href="#iceland">Iceland</a>
+        <a href="#denmark">Denmark</a>
+        <a href="#sweden">Sweden</a>
+    </nav>
+  </div>
+
+  
+
   <div class="parallax bg1"></div>
 </body>
 
@@ -73,30 +96,21 @@
 </head>
 
 <body>
-
+  <div class="text" id="iceland">
+    <h2>Iceland</h2>
+    <p>Explore the land of fire and ice.</p>
+  </div>
+  <div class="text" id="denmark">
+    <h2>Denmark</h2>
+    <p>Discover the beauty of Denmark.</p>
+  </div>
+  <div class="text" id="sweden">
+    <h2>Sweden</h2>
+    <p>Experience the charm of Sweden.</p>
+  </div>
   <!-- Place your site's HTML here -->
   <script src="js/main.js"></script>
 </body>
 
-<div class="header">
-  <nav>
-      <a href="#iceland">Iceland</a>
-      <a href="#denmark">Denmark</a>
-      <a href="#sweden">Sweden</a>
-  </nav>
-</div>
-
-<div class="text" id="iceland">
-  <h2>Iceland</h2>
-  <p>Explore the land of fire and ice.</p>
-</div>
-<div class="text" id="denmark">
-  <h2>Denmark</h2>
-  <p>Discover the beauty of Denmark.</p>
-</div>
-<div class="text" id="sweden">
-  <h2>Sweden</h2>
-  <p>Experience the charm of Sweden.</p>
-</div>
 
 </html>
