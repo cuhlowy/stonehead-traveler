@@ -8,32 +8,27 @@ a:hover {
 }
 
 body{
-    background-color:antiquewhite;
-
+    background: #c7ced4;
     color: black;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
 
-}
-body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .header {
-    background: #c7ced4;
     padding: 15px;
     text-align: center;
 }
-.header nav a {
-    color: rgb(31, 28, 28);
-    text-decoration: none;
-    margin: 15px;
-    font-size: 18px;
-}
-.header nav a:hover {
-    text-decoration: underline;
-}
+    .header nav a {
+        color: rgb(31, 28, 28);
+        text-decoration: none;
+        margin: 15px;
+        font-size: 18px;
+    }
+    .header nav a:hover {
+        text-decoration: underline;
+    }
 
 .text {
     text-align: center;
